@@ -34,5 +34,3 @@ Elimina la información relativa a un usuario en la aplicación.
 * [DELETE] http://localhost:8000/deleteData/
 
 Elimina la información relativa a todos usuarios en la aplicación.
-
-# DM_Center
