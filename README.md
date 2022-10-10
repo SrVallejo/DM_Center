@@ -34,3 +34,11 @@ Elimina la información relativa a un usuario en la aplicación.
 * [DELETE] http://localhost:8000/deleteData/
 
 Elimina la información relativa a todos usuarios en la aplicación.
+
+3. Estructura del proyecto
+--------------------------
+
+El proyecto consta de:
+* Una rama **main** para los desarrollos definitivos.
+* Una rama **develop_sql** para los desarrollos con conexión a base de datos de tipo SQL, como es PostgreSQL.
+* Una rama **develop_mongo** para los desarrollos con conexión a base de datos de tipo NoSQL, como es MongoDB.
