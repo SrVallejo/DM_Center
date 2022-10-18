@@ -1,6 +1,9 @@
 # Crear una Api rest
 from fastapi import FastAPI, status, Response
 from models import User
+from connection import connect
+
+db = connect()
 
 tags_metadata=[
     {
