@@ -1,7 +1,8 @@
 import pymongo
+import settings
 
 def connect():
-    cliente = pymongo.MongoClient("localhost", 27017)
+    cliente = pymongo.MongoClient(settings.HOST, settings.PORT)
 
     db = cliente.test
     return db
