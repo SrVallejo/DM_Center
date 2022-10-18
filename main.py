@@ -1,6 +1,10 @@
 # Crear una Api rest
 from fastapi import FastAPI, status, Response
 from models import User
+from connection import connect
+
+# Conexión a base de datos PostgreSQL
+cur, conn = connect()
 
 tags_metadata=[
     {
@@ -83,3 +87,8 @@ async def delete(response: Response):
     database.clear()
     response.status_code = status.HTTP_200_OK
     return {"msg": []}
+
+conn.commit()
+
+cur.close()
+conn.close()
