@@ -1,3 +1,4 @@
+# No subir los datos al github
 DATABASE=""
 USER=""
 PASSWORD=""
