@@ -5,12 +5,12 @@ class Empleado(BaseModel):
     #Nombre y appelidos
     nombre: str
     edad: int
-
+    
     #Director
     cargo: str
 
     #Ventas
     departamento: str
-    
+
     #Mensual
     salario: float
