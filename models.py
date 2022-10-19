@@ -1,7 +1,9 @@
+from datetime import date
 from pydantic import BaseModel
 
 class User(BaseModel):
-    id: int
-    name: str
-    age: int
-    profesion: str
+    Id: int
+    Nombre: str
+    Edad: int
+    Notas: float
+    Fecha: date
